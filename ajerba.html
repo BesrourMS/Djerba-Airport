@@ -205,9 +205,9 @@
 <script>
 $(document).ready(function(){
 	var d = new Date();
-				var month = d.getMonth()+1;
-                var day = d.getDate();
-                var year = d.getFullYear();
+	var month = d.getMonth()+1;
+	var day = d.getDate();
+        var year = d.getFullYear();
         
 $.getJSON('http://ineedto.work/airport/time.php?d='+day+'&m='+month+'&y='+year+'&dest=A', function(data){
     var content = '';
@@ -218,7 +218,7 @@ $.getJSON('http://ineedto.work/airport/time.php?d='+day+'&m='+month+'&y='+year+'
 		content +='<div class="info">';
 		content +='<h2 class="title">'+ value.destination +'</h2>';
 		content +='<p class="desc"> Companie : '+ value.company +'</p>';
-		content +='<ul><li style="width:50%;font-size:1.5em;">Numéro du Vol : <strong>'+ value.fnumber +'</strong></li>';
+		content +='<ul><li style="width:50%;font-size:1.5em;">NumÃ©ro du Vol : <strong>'+ value.fnumber +'</strong></li>';
 		content +='<li style="width:50%;font-size:1.5em;">Statut : '+ value.comment +'</li></ul>';
     });
 $(content).appendTo("#search-results");
@@ -241,8 +241,8 @@ $(content).appendTo("#search-results");
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href="./">Accueil</a></li>
-            <li class="active"><a href="ajerba.html">Arrivées</a></li>
-            <li><a href="djerba.html">Départs</a></li>
+            <li class="active"><a href="ajerba.html">ArrivÃ©es</a></li>
+            <li><a href="djerba.html">DÃ©parts</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
