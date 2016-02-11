@@ -1,13 +1,13 @@
 {
     "name": "Djerba Airport",
     "description": "Arrivals & Departures Schedules Djerba International Airport",
-    "launch_path": "/index.html",
+    "launch_path": "/Djerba-Airport/index.html",
     "developer": {
         "name": "Mohamed Safouan Besrour",
-        "url": "http://besrourms.github.io/Djerba-Airport"
+        "url": "http://besrourms.github.io"
     },
 	"icons": {
-		"128": "/images/djerba-airport-128.png"
+		"128": "/Djerba-Airport/images/djerba-airport-128.png"
     },
     "default_locale": "en"
 }
