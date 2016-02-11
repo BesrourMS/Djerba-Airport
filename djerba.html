@@ -211,7 +211,7 @@ $(document).ready(function(){
                 var day = d.getDate();
                 var year = d.getFullYear();
         
-$.getJSON('http://ineedto.work/airport/time.php?d='+day+'&m='+month+'&y='+year+'&dest=D', function(data){
+$.getJSON('http://map.tn/airport/time.php?d='+day+'&m='+month+'&y='+year+'&dest=D', function(data){
     var content = '';
     $.each(data, function (index, value) {
 		content +='<li><time>';
